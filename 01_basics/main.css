@@ -1,0 +1,8 @@
+header  {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+/*"Ruleset" is full item*/
+/*"Selector" is yellow callout*/
+/*"Declaration Block" inside the curly braces made of properties and values*/
