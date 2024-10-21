@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    border-radius: 10px;
+    /*display: inline;*/
+    /*display: block;*/
+    display: inline-block;
+    /*display: none;*/
+
+}
+
+img {
+    width: 100px;
+    border-radius: 100%;
+    border: 20px groove orangered;
+}
+
+.dogone {
+    border: 10px dashed orangered;
+}
+
+.dogtwo {
+    border: 10px dotted orangered;
+}
+
+.dogthree {
+    border: 10px double orangered;
+}
