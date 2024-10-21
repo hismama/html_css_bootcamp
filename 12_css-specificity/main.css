@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+}
+/* Gets applied because 'id' is highest */
+/* Equal specificity last rule applies */
+#emph {
+    color: blue;
+}
+
+.emphasize {
+    color: green;
+}
+
+.cowboy {
+    color: yellow;
+}
+
+
+/* All weighted by 10s Highest Wins */
+/* element - 1s   */
+/* class   - 10s    */
+/* id      - 100s  */
