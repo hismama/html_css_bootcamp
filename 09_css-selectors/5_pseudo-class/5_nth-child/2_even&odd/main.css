@@ -1,0 +1,11 @@
+body {
+    font-size: 36px;
+}
+/* Good for Zebra Stripping Tables*/
+li:nth-child(even) {
+    color: red;
+}
+
+li:nth-child(odd) {
+    color: blue;
+}

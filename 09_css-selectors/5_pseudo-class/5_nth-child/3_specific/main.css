@@ -1,0 +1,15 @@
+body {
+    font-size: 36px;
+}
+
+li:nth-child(4) {
+    color: orange;
+}
+
+li:nth-last-child(4) {
+    color: burlywood;
+}
+
+li:only-child {
+    color: blue;
+}

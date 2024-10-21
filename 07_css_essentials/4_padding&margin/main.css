@@ -12,7 +12,10 @@ img {
     /*border-radius: 100%;*/
     border: 20px groove orangered;
     padding: 10px;
-    margin: 20px
+    margin: 20px;
+    /* TRBL */
+    /* TB RL */
+    /* T R B L */
 }
 
 .dogone {

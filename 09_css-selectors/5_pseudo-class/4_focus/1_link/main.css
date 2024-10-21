@@ -1,0 +1,8 @@
+a {
+    font-size: 200px;
+}
+/* Similar to Active */
+a:focus {
+    font-size: 200px;
+    color: red;
+}

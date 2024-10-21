@@ -1,0 +1,24 @@
+body {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+/* Any 'p' inside a div any nest*/
+div p {
+    color: red;
+}
+
+/* Any 'p' immediately inside div */
+div > p {
+    color: blue;
+}
+
+/* Any 'p' sibling following div */
+div ~ p {
+    color: purple;
+}
+
+/* Any 'p' sibling immediately following div */
+div + p {
+    color: green;
+}

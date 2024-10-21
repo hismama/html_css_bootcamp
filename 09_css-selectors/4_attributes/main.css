@@ -1,0 +1,17 @@
+/*[] denote attributes*/
+[contenteditable] {
+    color: red;
+    border: 5px dashed black;
+}
+
+[href] {
+    border: 5px dashed green;
+}
+
+[src] {
+    border: 5px dashed blue;
+}
+
+[target=_blank] {
+    color: cyan;
+}
