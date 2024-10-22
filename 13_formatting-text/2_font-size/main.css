@@ -1,0 +1,8 @@
+
+/* List of prioritized fonts with generic always at the end for fallback */
+/* 'rem' scales proportionally to Browser's default font-size */
+/* 'vw' stands for viewport width x/100 */
+h1 {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+}

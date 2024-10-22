@@ -1,0 +1,10 @@
+
+/* List of prioritized fonts with generic always at the end for fallback */
+h1 {
+    /*font-family: serif;*/
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
