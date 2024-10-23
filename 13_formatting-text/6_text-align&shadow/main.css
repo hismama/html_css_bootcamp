@@ -1,0 +1,16 @@
+div {
+    width: 90%;
+    height: 3rem;
+    text-align: center;
+    border: 3px solid black;
+}
+
+/* text-align: inline content like text is aligned in its parent block element */
+
+p {
+    font-size: 10rem;
+    text-align: center;
+    /* x y blur-thick color */
+    text-shadow: 5px 5px 10px red;
+
+}
