@@ -1,0 +1,8 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8rem;
+    font-weight: normal;
+    /* 1.2 is normal */
+    line-height: 3;
+}
+

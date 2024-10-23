@@ -1,0 +1,16 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8rem;
+    font-weight: normal;
+    /* Many different values */
+    text-transform: uppercase;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6rem;
+    font-weight: normal;
+    /* Many different values */
+    font-variant: small-caps;
+}
