@@ -1,0 +1,9 @@
+p {
+    text-indent: 1rem;
+}
+
+p::first-letter {
+    font-family: cursive;
+    font-size: 2rem;
+    color: royalblue;
+}

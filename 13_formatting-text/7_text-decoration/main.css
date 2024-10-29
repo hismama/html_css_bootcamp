@@ -1,0 +1,16 @@
+html {
+    font-size: 4rem;
+
+}
+
+p {
+    color: lawngreen;
+    /*text-decoration: line-through underline overline;*/
+    text-decoration-line: underline;
+/*    none underline overline line-through */
+}
+
+/* Common to remove lines under hyperlinks */
+a {
+    text-decoration: none;
+}
