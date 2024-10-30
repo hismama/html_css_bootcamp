@@ -1,0 +1,33 @@
+body {
+    display: flex;
+}
+
+div {
+    height: 100px;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+    flex-basis: 400px
+/*    if you use percentage, flex-grow flex-shrink would never kick in */
+/*    auto just picks up on a width specified */
+}
+
+.flex1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex2 {
+    flex-grow: 8;
+    flex-shrink: 8;
+}
+
+
+/*
+The 3 div flex items each want to be 400px
+
+If the flex container is greater than 1200px, flex grow kicks in.
+
+If the flex container is less than 1200px, flex shrink kicks in.
+*/
+

@@ -1,0 +1,24 @@
+/* flex container */
+body {
+    display: flex;
+    border: 4px solid red;
+    /*justify-content: space-between;*/
+    flex-flow: row wrap;
+    /*flex-flow: column wrap;*/
+    justify-content: center;
+    /*justify-content: space-between;*/
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: space-around;*/
+    height: 600px;
+
+}
+/* flex items */
+div {
+    width: 50px;
+    height: 50px;
+    margin: 1em;
+    background-color: yellow;
+    border: 2px solid blue;
+    text-align: center;
+}

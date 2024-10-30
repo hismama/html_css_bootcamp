@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid blue;
+}
+body {
+    display: flex;
+    /*defaults*/
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    flex-wrap: wrap;
+}

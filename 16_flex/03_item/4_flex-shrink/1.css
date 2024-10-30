@@ -1,0 +1,25 @@
+body {
+    display: flex;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.flex1 {
+    flex-shrink: 1;
+}
+
+.flex2 {
+    flex-shrink: 2;
+}
+
+/* The 3 div flex items each want to 200px wide
+
+If the flex container is less than {div count} * 200px
+then flex-shrink kicks in
+*/

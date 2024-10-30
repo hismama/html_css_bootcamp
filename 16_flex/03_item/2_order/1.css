@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    border: 5px solid red;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#nn {
+    /* default is 0 */
+    order: 1;
+}
+
+#mm {
+    /* default is 0 */
+    order: 2;
+}
+
+#aa {
+    order: 3;
+}
