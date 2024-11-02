@@ -1,0 +1,1 @@
+Hands on was building the examples from folders above

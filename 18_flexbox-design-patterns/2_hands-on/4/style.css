@@ -1,0 +1,33 @@
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c1 {
+    background-image: url("../../../00_img/surf.jpg");
+}
+
+.c2 {
+    background-image: url("../../../00_img/surf.jpg");
+}
+
+.c3 {
+    background-image: url("../../../00_img/css terms.png");
+}
+
+.c4 {
+    background-image: url("../../../00_img/HTML DOM.png");
+}
+
+.c5 {
+    background-image: url("../../../00_img/101.PNG");
+}
+
+.c6 {
+    background-image: url("../../../00_img/100.PNG");
+}
+
+.c7 {
+    background-image: url("../../../00_img/corgi_puppy.jpg");
+}
