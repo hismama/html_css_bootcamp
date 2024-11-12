@@ -1,0 +1,12 @@
+body {
+    background-image: url("../../00_img/dog-leash.png");
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat;
+    /* contained by the element */
+    background-size: contain;
+    /* covers the element */
+    /*background-size: cover;*/
+    /* background-size: x y pixels */
+}

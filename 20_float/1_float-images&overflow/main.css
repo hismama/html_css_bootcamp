@@ -1,0 +1,21 @@
+div, img {
+    border: 2px solid red;
+    margin: 20px;
+}
+
+div {
+    /* Fixes containers where float object is larger than inline-text */
+    overflow: auto;
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}
+
+#bottom {
+    float: left;
+}
