@@ -1,0 +1,7 @@
+body {
+    border: 3px solid hotpink;
+    background-image: url("../../../00_img/dog-leash.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-position: 450px 150px;*/
+}

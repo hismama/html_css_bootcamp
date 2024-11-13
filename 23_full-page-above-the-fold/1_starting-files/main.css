@@ -1,0 +1,31 @@
+section.above-the-fold {
+    font-family: "Kotta One", "Cantarell:400,700", sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../00_img/background-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+section h1 {
+    font-size: 2rem;
+    margin: 2rem auto;
+}
+
+section h2 {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+section a {
+    margin: 2rem auto;
+    color: #bdcabe;
+    border: 2px solid #bdcabe;
+    border-radius: 5px;
+    padding: 5px;
+}

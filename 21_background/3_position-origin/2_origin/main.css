@@ -1,0 +1,14 @@
+div {
+    background-image: url("../../../00_img/dog-leash.png");
+    width: 600px;
+    height: 600px;
+    border: 50px solid rgba(0,0,0,1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    /*background-origin: padding-box;*/
+    /*background-origin: border-box;*/
+    padding: 40px;
+    color: white;
+    background-color: #3A5FCD;
+}
