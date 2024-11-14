@@ -1,13 +1,15 @@
 section.above-the-fold {
-    font-family: "Kotta One", "Cantarell:400,700", sans-serif;
+    font-family: "Cantarell", sans-serif;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    background-color: #5b5b5b;
     background-image: url("../../00_img/background-photo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     color: white;
 }
@@ -15,17 +17,30 @@ section.above-the-fold {
 section h1 {
     font-size: 2rem;
     margin: 2rem auto;
+    text-align: center;
 }
 
 section h2 {
-    font-size: 1rem;
-    padding: 5px;
+    font-weight: bold;
 }
 
-section a {
-    margin: 2rem auto;
-    color: #bdcabe;
-    border: 2px solid #bdcabe;
-    border-radius: 5px;
+section h2, h3 {
+    font-size: 1rem;
     padding: 5px;
+    text-align: center;
+}
+
+section button {
+    margin: 2rem auto;
+    color: #cafaea;
+    border: 2px solid #cafaea;
+    border-radius: 5px;
+    padding: 0.5rem 0.8rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+section button:hover {
+    font-weight: 1200;
 }

@@ -1,0 +1,12 @@
+section.above-the-fold {
+    justify-content: space-around;
+    background-image: url("../../00_img/background-photo-mobile-devices.jpg");
+}
+
+section h2 {
+    margin-top: auto;
+}
+
+section h3 {
+    margin-bottom: auto;
+}
