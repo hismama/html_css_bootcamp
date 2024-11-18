@@ -1,0 +1,46 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#amaze {
+    width: 200px;
+    height: 200px;
+    border: 10px groove gold;
+    padding: 5px;
+}
+
+#icon {
+    stroke: black;
+    stroke-width: 10px;
+    fill: red;
+}
+
+#icon:hover {
+    stroke: blue;
+    fill: yellow;
+}
+
+.icon-svg {
+    width: 800px;
+    height: 800px;
+}
+
+.icon-path {
+    stroke: black;
+    fill: red;
+}
+
+.icon-path:hover {
+    stroke: blue;
+    fill: yellow;
+}
