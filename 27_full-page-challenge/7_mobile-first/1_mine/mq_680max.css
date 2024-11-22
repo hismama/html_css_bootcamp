@@ -1,0 +1,26 @@
+section.above-the-fold {
+    justify-content: space-around;
+    background-image: url("../../../00_img/background-photo-mobile-devices.jpg");
+    padding-top: 25px;
+}
+
+section h2 {
+    margin-top: auto;
+}
+
+section h3 {
+    margin-bottom: auto;
+}
+
+.idx-hdr-svg, header nav {
+    display: none;
+}
+
+header div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+

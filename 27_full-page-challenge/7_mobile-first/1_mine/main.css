@@ -1,0 +1,108 @@
+html {
+    font-family: "Cantarell", sans-serif;
+    color: whitesmoke;
+}
+
+section.above-the-fold {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #5b5b5b;
+    background-image: url("../../../00_img/background-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 2.7rem;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div, header nav {
+    width: 300px;
+    height: 80%;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+header div a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header div a:hover {
+    color: #cafaea;
+}
+
+header div a h1 {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+header nav {
+    justify-content: space-between;
+}
+
+header nav a {
+    padding: 0 1rem;
+}
+
+header nav a:hover {
+    border-radius: 5px;
+    background-color: dimgray;
+}
+
+.idx-hdr-svg {
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+}
+
+.idx-hdr-svg:hover {
+    fill: #cafaea;
+}
+
+
+section h1 {
+    font-size: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+section h2 {
+    font-weight: bold;
+}
+
+section h2, h3 {
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+}
+
+section button {
+    margin: 2rem auto;
+    color: #cafaea;
+    border: 2px solid #cafaea;
+    border-radius: 5px;
+    padding: 0.5rem 0.8rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+section button:hover {
+    font-weight: 1200;
+}
