@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.atf {
+    height: 100vh;
+}
+
+nav {
+    border: 1px solid hotpink;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: #7d7d7d;
+    color: white;
+}
+
+div.lhs {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5rem;
+    font-size: 1rem;
+}
+
+svg.icon {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+}
+
+button {
+    padding: 0.8rem 2.2rem;
+    margin: 1rem 0.5rem;
+}
+
+button#first {
+    margin-left: 2rem;
+}
+
+button:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+div.rhs {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    align-items: center;
+    flex: 1;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+svg.inbox {
+    width: 200px;
+    height: 200px;
+    fill: hotpink;
+}
+
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: darkgray;
+    font-weight: bold;
+}

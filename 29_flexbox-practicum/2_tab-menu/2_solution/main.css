@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    /*padding-bottom: 40px;*/
+    border-bottom: 3px solid grey;
+}
+
+li {
+    padding: 0 50px 30px;
+    /* Prevents tab jump on hover */
+    border-bottom: 5px solid transparent;
+}
+
+li:hover {
+    border-bottom: 5px solid deepskyblue;
+}
