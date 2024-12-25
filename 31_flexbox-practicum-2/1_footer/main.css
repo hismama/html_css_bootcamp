@@ -1,0 +1,64 @@
+html {
+    color: grey;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    height: 100vh;
+    font-size: 6vw;
+    padding: 0 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
+    align-items: center;
+    border-top: 2px solid grey;
+    padding: 2rem 1rem;
+    font-size: 4rem;
+}
+
+footer div.left {
+    margin: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .spinner {
+    width: 1em;
+    height: 1em;
+    margin-right: 1rem;
+    fill: currentColor;
+    /*transform-origin: 47% 47%;*/
+    /*animation-name: rotate;*/
+    /*animation-duration: 1s;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-timing-function: linear;*/
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin: 0 2rem;
+    color: skyblue;
+    padding: .5rem 3rem;
+}
+
+button:hover {
+    color: white;
+    background-color: skyblue;
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}

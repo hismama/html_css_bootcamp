@@ -1,0 +1,42 @@
+html {
+    color: lightsteelblue;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article.border {
+    font-size: 2vw;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightsteelblue;
+    border-radius: 20px;
+    max-width: 65%;
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid lightsteelblue;
+}
+
+section {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section svg {
+    margin: 0 2.5rem;
+    fill: currentColor;
+    width: 3.5em;
+    height: 3.5em;
+}
