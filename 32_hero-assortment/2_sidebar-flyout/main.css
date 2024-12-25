@@ -1,0 +1,46 @@
+label {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*format*/
+    width: 5rem;
+    height: 2rem;
+    border: .3rem solid darkblue;
+    border-radius: 1rem;
+    background-color: #c4e8c8;
+    color: #3a5fcd
+}
+
+label:hover {
+    background-color: #6dc990;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#sidebar {
+    position: fixed;
+    left: -50rem;
+    height: 100vh;
+    width: 20vw;
+    background-color: lightblue;
+    border-right: 2px solid darkblue;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: .3s;
+}
+
+input[type="checkbox"]:checked ~ #sidebar {
+    /* toggle */
+    left: 0;
+}
+
+ol {
+    margin-top: 4rem;
+}
