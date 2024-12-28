@@ -1,0 +1,7 @@
+.main-width {
+    width: 60vw;
+}
+
+header nav {
+    display: flex;
+}

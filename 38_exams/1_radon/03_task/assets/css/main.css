@@ -1,0 +1,160 @@
+html {
+    font-size: 1vw;
+    background-color: #FFFFFF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-width {
+    width: 100vw;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+.text-underline {
+    text-decoration: underline;
+}
+
+header {
+    /* arrange content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* format*/
+    margin-top: 1rem;
+    /*border: 1px solid red;*/
+}
+
+h1 {
+    font-size: 5.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+    margin: 3rem;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+    margin: 3rem 3rem 1.5rem 3rem;
+}
+main h2 {
+    font-weight: 900;
+}
+
+p {
+    color: #484848;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.4;
+    margin: 0 3rem;
+}
+
+header nav {
+    width: 100%;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+header nav a {
+    width: 10%;
+    margin: 1rem 1.5%;
+    height: 1.5rem;
+    border: 1px solid black;
+    background-color: gray;
+    /* arrange content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav div {
+    width: 25%;
+    border-bottom: 2px solid darkgray;
+}
+
+header section {
+    color: white;
+    font-family: 'Alice', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/fam_blur_under_600_web_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 500px;
+}
+
+header section h2 {
+    color: white;
+    font-family: 'Alice', serif;
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+header section h3 {
+    font-size: 4rem;
+    padding: 2rem 2rem 5rem;
+    line-height: 8rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+header section a, main section article p a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    background-color: red;
+    padding: 2rem;
+}
+
+main section {
+    border: 1px solid red;
+    text-align: left;
+    margin: 0 4rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
